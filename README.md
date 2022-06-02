@@ -2,4 +2,8 @@
 
 - used MVC as design pattern
 
-- pioneers-server and pioneers-dataparser can be installed using npm which are packages written for this project.
+### packages published in npm and used in this project:
+- pioneers-router
+- pioneers-dataparser
+- pioneers-server
+- pioneers-token-manager
