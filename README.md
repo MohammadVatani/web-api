@@ -1,20 +1,5 @@
-### my first web-API BACKEND project.
+### web api without using frameworks with node.js
 
-### web-api routes
+- used MVC as design pattern
 
-#### Routes
-```
-- /api/comments/:id ---> comments of article. can use by articleId
-- /api/posts ---> CRUD on posts
-- /api/posts/:id ---> single post by articleId
-- /api/images/(image-address) ---> CRUD images by path
-- /api/users/profile/:id ---> all data related to profile. get data by userId
-- /api/users/profileSetting/:id ---> all data in setting page. can use by userId
-- /api/users/savedMessages/:id ---> bookmarks. can use by userId
-```
-#### QueryString
-```
-- limit: set limit for results
-- offset: set offset to return data from i'th result
-- userid: used just in posts to return posts from specific userid
-```
+- pioneers-server and pioneers-dataparser can be installed using npm which are packages written for this project.
